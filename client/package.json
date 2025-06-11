@@ -12,6 +12,7 @@
         "braintree-web-drop-in-react": "^1.2.1",
         "concurrently": "^8.2.2",
         "cors": "^2.8.5",
+        "moment": "^2.30.1",
         "path": "^0.12.7",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
