@@ -71,7 +71,7 @@ e.preventDefault();
 
           <div className="mb-3">
 
-          <button type="submit" className="btn btn-primary" onClick={()=>{
+          <button type="button" className="btn btn-primary" onClick={()=>{
             navigate("/forgot-password");
           }}>
             Forgot Password
