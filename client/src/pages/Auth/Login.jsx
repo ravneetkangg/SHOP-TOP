@@ -18,7 +18,7 @@ const Login = () => {
 const handleSubmit = async (e) => {
 e.preventDefault();
   try {
-    const res = await axios.post("/api/v1/auth/login", {
+    const res = await axios.post(`${process.env.REACT_APP_API}/api/v1/auth/login`, {
       email,
       password,
     });
@@ -71,7 +71,7 @@ e.preventDefault();
 
           <div className="mb-3">
 
-          <button type="submit" className="btn btn-primary" onClick={()=>{
+          <button type="button" className="btn btn-primary" onClick={()=>{
             navigate("/forgot-password");
           }}>
             Forgot Password
